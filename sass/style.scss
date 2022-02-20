@@ -1,0 +1,80 @@
+.hero {
+    height:350px;
+    background-image: url("https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+}
+h1 {
+    padding-top: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.container {
+    max-width: 700px;
+    width: 80%;
+    margin: 0 auto;
+}
+.clearfix {
+  overflow: auto;
+}
+
+.main, .sidebar {
+    float: right;
+}
+.main {
+    width: 80%;
+}
+.sidebar {
+    width: 20%;
+}
+.col {
+    float: left; 
+    width: 25%;
+}
+.main img {
+    width: 100%;
+}
+.social-media {
+    position: fixed;
+    top: calc(50vh - 65px);
+    left: 10px;
+    width: 40px;
+}
+.social-media i {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background: #ccc;
+    line-height: 40px;
+    text-align: center;
+}
+.sidebar a {
+    display: block;
+}
+.footer {
+    height: 75px;
+    background: #2C3E50;
+    
+}
+.footer p {
+    justify-content: center;
+    color: #FFFFFF;
+    padding-top: 30px;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+        padding: 0 60px;
+    }
+    .main, .sidebar {
+        float: none;
+        width: 100%;
+    }
+}
